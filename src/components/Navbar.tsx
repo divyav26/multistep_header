@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <>
       <div className="z-40" onMouseLeave={() => setIsMegaMenuOpen(false)}>
-        <div className="w-full h-[100px] bg-white text-black shadow-xl flex justify-between items-center px-10 relative z-10">
+        <div className="w-full h-20 bg-white text-black shadow-xl flex justify-between items-center px-10 relative z-10">
           <nav className=" flex items-center px-10 relative z-10 w-[40%] ">
             {["men", "women", "kids", "beauty"].map((category) => {
               return (
