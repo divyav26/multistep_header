@@ -81,9 +81,6 @@ export const megaMenu = {
         "Playsuits",
         "Jumpsuits",
         "Shrugs",
-        "Sweaters & Sweatshirts",
-        "Jackets & Coats",
-        "   Blazers & Waistcoats,",
       ],
     },
     {
@@ -112,8 +109,6 @@ export const megaMenu = {
         "Track Pants & Pyjamas",
         "Jacket, Sweater & Sweatshirts",
         "Innerwear & Thermals",
-        "Nightwear & Loungewear",
-        "Value Packs",
       ],
     },
     {
@@ -129,8 +124,6 @@ export const megaMenu = {
         "Track Pants & Pyjamas",
         "Jacket, Sweater & Sweatshirts",
         "Innerwear & Thermals",
-        "Nightwear & Loungewear",
-        "Value Packs",
       ],
     },
     {
