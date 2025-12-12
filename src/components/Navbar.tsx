@@ -44,7 +44,7 @@ export default function Navbar() {
           })}
         </nav>
         {isMegaMenuOpen && (
-          <div className="w-full bg-white text-black shadow-2xl p-10 grid grid-cols-4 gap-4 absolute z-0">
+          <div className="w-full h-[80vh] bg-white text-black shadow-2xl p-10 grid grid-cols-4 gap-4 absolute z-0">
             {activeCategory === "men" &&
               megaMenu.men.map((item) => {
                 return (

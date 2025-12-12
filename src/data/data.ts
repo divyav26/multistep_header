@@ -36,6 +36,19 @@ export const megaMenu = {
         "Socks",
       ],
     },
+    {
+      heading: "sports Wear",
+      items: [
+        "Sports Shoes",
+        "Sports Sandals",
+        "Active T-Shirts",
+        "Track Pants & Shorts",
+        "Tracksuits",
+        "Jackets & Sweatshirts",
+        "Sports Accessories",
+        "Swimwear",
+      ],
+    },
   ],
 
   women: [
@@ -73,6 +86,16 @@ export const megaMenu = {
         "   Blazers & Waistcoats,",
       ],
     },
+    {
+      heading: " Footwear",
+      items: [
+        "Flats",
+        "Casual Shoes",
+        "Heels",
+        "Boots",
+        "Sports Shoes & Floaters",
+      ],
+    },
   ],
 
   kids: [
@@ -108,6 +131,33 @@ export const megaMenu = {
         "Innerwear & Thermals",
         "Nightwear & Loungewear",
         "Value Packs",
+      ],
+    },
+    {
+      heading: "Footwear",
+      items: [
+        "Casual Shoes",
+        "Flipflops",
+        "Sports Shoes",
+        "Flats",
+        "Sandals",
+        "Heels",
+        "School Shoes",
+        "Socks",
+      ],
+    },
+    {
+      heading: "Infants",
+      items: [
+        "Bodysuits",
+        "Rompers & Sleepsuits",
+        "Clothing Sets",
+        "Tshirts & Tops",
+        "Dresses",
+        "Bottom wear",
+        "Winter Wear",
+        "Innerwear & Sleepwear",
+        "Infant Care",
       ],
     },
   ],
