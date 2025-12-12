@@ -13,12 +13,9 @@ export default function Navbar() {
 
   return (
     <>
-      <div>
+      <div className="z-40" onMouseLeave={() => setIsMegaMenuOpen(false)}>
         <div className="w-full h-[100px] bg-white text-black shadow-xl flex justify-between items-center px-10 relative z-10">
-          <nav
-            className=" flex items-center px-10 relative z-10 w-[40%] "
-            onMouseLeave={() => setIsMegaMenuOpen(false)}
-          >
+          <nav className=" flex items-center px-10 relative z-10 w-[40%] ">
             {["men", "women", "kids", "beauty"].map((category) => {
               return (
                 <div
@@ -69,7 +66,10 @@ export default function Navbar() {
         </div>
 
         {isMegaMenuOpen && (
-          <div className="w-full h-[80vh] bg-white text-black shadow-2xl p-10 grid grid-cols-4 gap-4 absolute z-0">
+          <div
+            className="w-full h-[80vh] bg-white text-black shadow-2xl p-10 grid grid-cols-4 gap-4 absolute z-0"
+            onMouseLeave={() => setIsMegaMenuOpen(false)}
+          >
             {activeCategory === "men" &&
               megaMenu.men.map((item) => {
                 return (
