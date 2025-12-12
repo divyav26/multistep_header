@@ -1,19 +1,8 @@
 import { useState } from "react";
 import Dashboard from "./components/Dashboard";
-
-// Step Components
-
-function JobLists() {
-  return <h1 className="text-xl font-bold">JobLists Component</h1>;
-}
-
-function CreateJob() {
-  return <h1 className="text-xl font-bold">CreateJob Component</h1>;
-}
-
-function Candidates() {
-  return <h1 className="text-xl font-bold">Candidates Component</h1>;
-}
+import JobLists from "./components/JobLists";
+import CreateJob from "./components/CreateJob";
+import Candidates from "./components/Candidates";
 
 export default function App() {
   const [currentStep, setCurrentStep] = useState(1);
